@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syntrix — VST2 Synthesizer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #101116;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            padding: 25px 8%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #292a32;
+        }
+
+        header h2 {
+            font-size: 28px;
+            letter-spacing: 2px;
+        }
+
+        header a {
+            color: #aaa;
+            text-decoration: none;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 70px 12%;
+            background: radial-gradient(circle at 75% 50%, #34304f, #101116 60%);
+        }
+
+        .hero h1 {
+            font-size: clamp(48px, 9vw, 100px);
+            letter-spacing: 5px;
+        }
+
+        .hero p {
+            color: #aaa;
+            font-size: 19px;
+            max-width: 600px;
+            line-height: 1.6;
+            margin: 20px 0 30px;
+        }
+
+        .button {
+            display: inline-block;
+            width: fit-content;
+            padding: 14px 28px;
+            background: #8b70ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 65px 12%;
+        }
+
+        section h2 {
+            font-size: 32px;
+            margin-bottom: 25px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .feature {
+            background: #191a22;
+            border: 1px solid #30313b;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        .feature h3 {
+            margin-bottom: 12px;
+        }
+
+        .feature p {
+            color: #aaa;
+            line-height: 1.5;
+        }
+
+        footer {
+            padding: 30px;
+            text-align: center;
+            color: #777;
+            border-top: 1px solid #292a32;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>SYNTRIX</h2>
+    <a href="https://github.com/">GitHub</a>
+</header>
+
+<div class="hero">
+    <h1>SYNTRIX</h1>
+    <p>
+        A powerful VST2 synthesizer for Windows.
+        Create unique sounds, explore synthesis
+        and bring your musical ideas to life.
+    </p>
+    <a class="button" href="#features">Explore Syntrix</a>
+</div>
+
+<section id="features">
+    <h2>Features</h2>
+    <div class="features">
+        <div class="feature">
+            <h3>Sound Design</h3>
+            <p>Create and customize your own sounds.</p>
+        </div>
+        <div class="feature">
+            <h3>Oscillators</h3>
+            <p>Shape waveforms and experiment with tones.</p>
+        </div>
+        <div class="feature">
+            <h3>Effects</h3>
+            <p>Add depth and character to your sound.</p>
+        </div>
+        <div class="feature">
+            <h3>VST2 Support</h3>
+            <p>Use Syntrix in compatible Windows DAWs.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Syntrix. All rights reserved.
+</footer>
+
+</body>
+</html>
